@@ -1,0 +1,41 @@
+@media all and (max-width: 768px) {
+  header#main-header div.main-header-content {
+    padding: 15vh; }
+    header#main-header div.main-header-content h1 {
+      font-size: 3.5em; }
+  h2.header2 {
+    font-size: 1.5em; }
+  #main-nav {
+    padding: 10px; }
+    #main-nav div.container {
+      margin-right: 0;
+      padding-right: 0; }
+  div.contact-data {
+    width: 100%;
+    text-align: center; }
+  div.contact-form form {
+    width: 100%; }
+  div.contact-social-icons a {
+    margin: 2%;
+    padding: 0; }
+  #myPicture {
+    margin: 0 auto; } }
+
+@media all and (max-width: 480px) {
+  #myPicture {
+    max-width: 250px;
+    max-height: 250px; }
+  header#main-header div.main-header-content {
+    padding: 10vh; }
+    header#main-header div.main-header-content h2 {
+      font-size: 1.5em; }
+    header#main-header div.main-header-content h1 {
+      font-size: 3.5em; }
+  #main-nav {
+    padding: 10px; }
+    #main-nav div.container {
+      margin-right: 0; }
+  #myPicture {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto; } }

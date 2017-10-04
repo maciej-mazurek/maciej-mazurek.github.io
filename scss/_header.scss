@@ -1,0 +1,19 @@
+/* Header Styles Start */
+
+#main-header {
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    .main-header-content {
+        padding: 30vh;
+        font-family: 'Roboto', sans-serif;
+            margin: 0 auto;
+        h1 {
+            font-size: 80px;
+
+        }
+    }
+}
+
+
+/* Header Styles Stop */

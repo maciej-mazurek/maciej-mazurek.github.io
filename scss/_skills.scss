@@ -1,0 +1,20 @@
+@import 'variables';
+@import 'mixins';
+
+/* Section Skills Styles start */
+
+#skills {
+    text-align: center;
+    
+    div#skills-icons {
+        text-align: center;
+        padding: 0% 30%;
+        
+        figure img {
+            margin: 15px;
+        }
+    }
+}
+
+
+/* Section Skills Styles Stop */

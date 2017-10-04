@@ -1,0 +1,84 @@
+@import 'mixins';
+@import 'variables';
+
+/* Contact section styling start */
+
+section#contact {
+    background-color: #213b50;
+    color: $white-color;
+    @include dimensions();
+}
+
+div.contact_data {
+    float: left;
+    text-align: left;
+    line-height: 25px;
+    
+    h2 {
+    text-align: left;
+    font-size: 38px;
+}
+}
+
+
+div.contact-social-icons a {
+    height: 50px;
+   width: 50px;
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 5px;
+    color: $white-color;
+    vertical-align: middle;
+    line-height: 45px;
+    
+    &:hover {
+    color: $green-color;
+}
+}
+
+div.contact-form {
+    text-align: left;
+    float: left;
+    margin-top: 40px;
+}
+
+address a {
+    text-decoration: none;
+    
+    &:link {
+    color: $green-color;
+}
+}
+
+
+form input,
+textarea {
+    width: 80%;
+    margin: 2%;
+    background-color: #426684;
+}
+
+
+form input {
+    height: 50px;
+}
+
+::-webkit-input-placeholder {
+    color: $white-color;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+input[type="submit"] {
+    color: $white-color;
+    font-weight: 600;
+    width: auto;
+    padding: 15px 30px;
+    margin: 0% 18% 20% 0%;
+    float: right;
+    text-transform: uppercase;
+    border: 1pz solid $green-color;
+    background-color: $green-color;
+}

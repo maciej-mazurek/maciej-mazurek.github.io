@@ -1,0 +1,35 @@
+@import 'variables';
+@import 'mixins';
+
+/* Section About Styles Start */
+
+
+#about {
+    background-color: #f9fcfe;
+    padding: 0% 10% 8%;
+    max-width: 100%;
+}
+
+#myPicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;  
+    
+    img {
+    @include dimensions();
+    border: 15px $white-color solid;
+    border-radius: 15px;
+}
+    
+}
+
+.about-content {
+    font-size: 14px;
+    padding: 0;
+}
+
+
+/* Section About Styles Stop */

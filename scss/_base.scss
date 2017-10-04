@@ -1,0 +1,39 @@
+@import 'mixins';
+@import 'variables';
+
+* {
+    box-sizing: border-box;
+    @include resets();
+}
+
+body {
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+section h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+.container, .container-fluid, .row {
+    @include resets();
+}
+
+span {
+    color: $green-color;
+    font-weight: 600;
+}

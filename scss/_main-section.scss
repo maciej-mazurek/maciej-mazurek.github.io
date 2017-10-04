@@ -1,0 +1,46 @@
+@import 'variables';
+@import 'mixins';
+
+/* Main menu Styles Start */
+
+#main-nav {
+    background-color: transparent;
+    padding-right: 50px;
+    
+    &.scroll {
+         background-color: $transparent-white;
+    }
+}
+
+
+div.navbar-collapse ul.navbar-nav li a {
+    color: $white-color;
+    font-weight: 400;
+    text-decoration: none;
+    &:hover {
+        color: $green-color;
+    }
+    &.scroll {
+        color: $green-color;
+        
+        &:hover {
+            color: black;
+        }
+    }
+}
+
+.navbar-fixed-top {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: $transparent-white;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border: 0;
+}
+
+
+/* Main menu Styles Stop */
