@@ -2,13 +2,13 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden !important;
-    background-color: #f5f5f5;
+    background-color: #FBFBFB;
 }
 
 .wrapper {
     position: relative;
     height: 500px;
-    background-color: #f5f5f5;
+    background-color:#FBFBFB;
 }
 
 .header {
@@ -148,7 +148,7 @@ tr>td:first-child {
 
 input,
 textarea {
-    background-color: #FBFBFB;
+    background-color: #FFFFFF;
 }
 
 #mailer {
@@ -240,7 +240,7 @@ textarea {
 
 body {
     color: #768390;
-    background: #F5F5F5;
+    background: #FBFBFB;
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     padding: 0;
@@ -276,7 +276,7 @@ a:hover {
 }
 
 .container-fluid .row:nth-child(even) {
-    background: #f5f5f5;
+    background: #FBFBFB;
 }
 
 .timelineMAIN-title {
