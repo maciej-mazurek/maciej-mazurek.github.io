@@ -1,12 +1,14 @@
 $(document).ready(function(){
     
     navNewClass();
+    showContent();
     
 });
 
 $(window).scroll(function(){
     
     navNewClass();
+    showContent();
     
 });
 
@@ -33,3 +35,24 @@ $('.links').click(function () {
     }, 1000);
     return false;
 });
+
+function showContent() {
+    var scroll = $(window).scrollTop();
+
+    if(scroll >= 100) {
+        $('#myPicture').fadeIn(2000);
+        $('.about-content').fadeIn(2000);
+    }else {
+        $('#myPicture').fadeOut(100);
+        $('.about-content').fadeOut(100);
+    }
+    
+    if (scroll >= 1000) {
+        $('#skills-icons').fadeIn(2000);
+        $('#skillsHeader').fadeIn(2000);
+    }else {
+        $('#skills-icons').fadeOut(100);
+        $('#skillsHeader').fadeOut(100);
+    }
+        
+    }

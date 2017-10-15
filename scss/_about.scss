@@ -5,10 +5,11 @@
 
 
 #about {
+    position: absolute;
     background-color: #f9fcfe;
     padding: 0% 10% 8%;
-    max-width: 100%;
-}
+    max-width: 100%; 
+    z-index: 3;}
 
 #myPicture {
     display: flex;
