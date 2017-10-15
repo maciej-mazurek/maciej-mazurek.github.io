@@ -47,7 +47,7 @@ function showContent() {
         $('.about-content').fadeOut(100);
     }
     
-    if (scroll >= 1000) {
+    if (scroll >= 800) {
         $('#skills-icons').fadeIn(2000);
         $('#skillsHeader').fadeIn(2000);
     }else {
