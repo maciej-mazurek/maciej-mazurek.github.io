@@ -455,6 +455,8 @@ a.clickableLink {
 .about-content {
   font-size: 20px;
   padding: 0; }
+  .about-content p {
+    font-size: 23px; }
 
 /* Section About Styles Stop */
 /* Section Skills Styles start */
@@ -464,10 +466,10 @@ a.clickableLink {
   position: absolute;
   text-align: center; }
   #skills p {
-    font-size: 15px; }
+    font-size: 20px; }
   #skills div#skills-icons {
     text-align: center;
-    padding: 0% 30%; }
+    padding: 1% 25% 0% 25%; }
     #skills div#skills-icons figure img {
       margin: 15px;
       width: 85%;
