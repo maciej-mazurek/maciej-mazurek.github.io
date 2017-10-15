@@ -265,8 +265,7 @@ div.navbar-collapse ul.navbar-nav li a {
   animation-delay: 0s; }
 
 .untitled__slide:nth-child(1) .untitled__slideBg {
-  background-image: url("../img/header-background.jpg");
-  /*<a href="http://www.freepik.com">Designed by Onlyyouqj / Freepik</a>*/ }
+  background-image: url("../img/header-background.jpg"); }
 
 .untitled__slide:nth-child(2) {
   -webkit-animation-delay: 5s;
@@ -280,8 +279,7 @@ div.navbar-collapse ul.navbar-nav li a {
   animation-delay: 10s; }
 
 .untitled__slide:nth-child(3) .untitled__slideBg {
-  background-image: url("../img/7627.jpg");
-  /*<a href="http://www.freepik.com">Designed by starline / Freepik</a>*/ }
+  background-image: url("../img/pexels-photo.jpg"); }
 
 .untitled__slide:nth-child(4) {
   -webkit-animation-delay: 15s;
@@ -470,7 +468,9 @@ a.clickableLink {
     text-align: center;
     padding: 0% 30%; }
     #skills div#skills-icons figure img {
-      margin: 15px; }
+      margin: 15px;
+      width: 85%;
+      height: 85%; }
 
 /* Section Skills Styles Stop */
 /*section portfolio start*/
