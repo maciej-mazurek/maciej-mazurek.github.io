@@ -1,10 +1,8 @@
 @media all and (max-width: 768px) {
-  header#main-header div.main-header-content {
-    padding: 15vh; }
-    header#main-header div.main-header-content h1 {
-      font-size: 3.5em; }
-  h2.header2 {
-    font-size: 1.5em; }
+  .untitled__slideContent h1 {
+    font-size: 4em; }
+  .untitled__slideContent h2 {
+    font-size: 3em; }
   #main-nav {
     padding: 10px; }
     #main-nav div.container {
@@ -19,18 +17,22 @@
     margin: 2%;
     padding: 0; }
   #myPicture {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  #skills {
+    margin-top: 800px; }
+  .about-content {
+    text-align: center;
+    font-size: 15px;
+    padding: 0; } }
 
 @media all and (max-width: 480px) {
+  .untitled__slideContent h1 {
+    font-size: 4em; }
+  .untitled__slideContent h2 {
+    font-size: 3em; }
   #myPicture {
     max-width: 250px;
     max-height: 250px; }
-  header#main-header div.main-header-content {
-    padding: 10vh; }
-    header#main-header div.main-header-content h2 {
-      font-size: 1.5em; }
-    header#main-header div.main-header-content h1 {
-      font-size: 3.5em; }
   #main-nav {
     padding: 10px; }
     #main-nav div.container {
@@ -40,4 +42,9 @@
     height: 300px;
     margin: 0 auto; }
   #skills {
-    margin-top: 350px; } }
+    margin-top: 700px; } }
+
+.about-content {
+  text-align: center;
+  font-size: 15px;
+  padding: 0; }

@@ -1,13 +1,14 @@
 @media all and (max-width: 768px) {
-    header#main-header div.main-header-content {
-        padding: 15vh;
+  
+    .untitled__slideContent {
         h1 {
-            font-size: 3.5em;
+            font-size: 4em;
         }
-    }
-    h2.header2 {
-        font-size: 1.5em;
-    }
+        
+        h2 {
+            font-size: 3em;
+        }
+    }    
     #main-nav {
         padding: 10px;
         div.container {
@@ -30,22 +31,35 @@
      #myPicture {
      margin: 0 auto;    
     }
+    
+    #skills {
+        margin-top: 800px;
+    }
+    
+    .about-content {
+        text-align: center;
+        font-size: 15px;
+        padding: 0;
+    }
 }
 
 @media all and (max-width: 480px) {
+    
+    .untitled__slideContent {
+        h1 {
+            font-size: 4em;
+        }
+
+        h2 {
+            font-size: 3em;
+        }
+    }  
+    
     #myPicture {
         max-width: 250px;
         max-height: 250px;
     }
-    header#main-header div.main-header-content {
-        padding: 10vh;
-        h2 {
-            font-size: 1.5em;
-        }
-        h1 {
-            font-size: 3.5em
-        }
-    }
+   
     #main-nav {
         padding: 10px;
         div.container {
@@ -61,6 +75,12 @@
     }
     
     #skills {
-        margin-top: 350px;
+        margin-top: 700px;
     }
+}
+
+.about-content {
+    text-align: center;
+    font-size: 15px;
+    padding: 0;
 }

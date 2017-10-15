@@ -453,7 +453,7 @@ a.clickableLink {
     border-radius: 15px; }
 
 .about-content {
-  font-size: 14px;
+  font-size: 20px;
   padding: 0; }
 
 /* Section About Styles Stop */
@@ -462,8 +462,9 @@ a.clickableLink {
   margin-top: 700px;
   background-color: white;
   position: absolute;
-  z-index: 999999;
   text-align: center; }
+  #skills p {
+    font-size: 15px; }
   #skills div#skills-icons {
     text-align: center;
     padding: 0% 30%; }
