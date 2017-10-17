@@ -456,7 +456,8 @@ a.clickableLink {
   font-size: 20px;
   padding: 0; }
   .about-content p {
-    font-size: 23px; }
+    font-size: 23px;
+    text-align: justify; }
 
 /* Section About Styles Stop */
 /* Section Skills Styles start */
@@ -466,7 +467,9 @@ a.clickableLink {
   position: absolute;
   text-align: center; }
   #skills p {
-    font-size: 20px; }
+    font-size: 20px;
+    text-align: justify;
+    padding: 0% 2%; }
   #skills div#skills-icons {
     text-align: center;
     padding: 1% 25% 0% 25%; }
@@ -482,13 +485,14 @@ a.clickableLink {
   width: 100%;
   margin: 5% 0%; }
   #portfolio .portfolio-items {
-    text-align: center; }
+    text-align: center;
+    margin: 1%; }
     #portfolio .portfolio-items .single-portfolio-item {
       height: 350px;
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-      padding: 0; }
+      padding: 0%; }
 
 #portfolio-item-1 {
   background-image: url(../img/portfolio1.jpg); }
@@ -517,7 +521,7 @@ a.clickableLink {
           margin-top: 2px; }
     #portfolio-item-2 .single-portfolio-item-mask:hover {
       opacity: 1;
-      transform: all 0.3s easy-in-out; }
+      transition: all 0.3s ease-in-out; }
 
 #portfolio-item-3 {
   background-image: url(../img/portfolio3.jpg); }
