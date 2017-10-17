@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!--Header plus Json Data-->
+    <header>
+    <h3>Aktualny kurs Bitcoin do PLN</h3>
+    <h4>Kupno</h4>
+    <div id="buy"></div>
+    <p class="arrow"></p>
+    <h4>Sprzedaż</h4>
+    <div id="sell"></div>
+    <p class="arrow"></p>
+
+    <!--Interval time buttons, header and summary-->
+
+    <h4>Odświeżaj kurs co:</h4>
+
+    <form name="timerBtn">
+        <input type="button" class="button" id="btn5" value="5 sekund">
+        <input type="button" class="button" id="btn10" value="10 sekund">
+        <input type="button" class="button" id="btn30" value="30 sekund">
+        <input type="button" class="button" id="btn60" value="60 sekund">
+    </form>
+    <br>
+    <p id="timer">Odświeżanie kursu co 5 sekund</p>
+    </header>
+
+
+    <!--Scripts-->
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

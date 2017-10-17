@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+header {
+  display: inline-block;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+div{ 
+    
+white-space:pre-wrap; 
+display: inline;
+
+}
+
+p {
+    font-weight: 800;
+    display: inline;
+}
+
+i {
+    margin-left: 5px;
+}
+.fa-long-arrow-up {
+    color:green;
+}
+
+.fa-long-arrow-down {
+    color:red;
+}
+
+.fa-minus {
+    color:blue;
+}

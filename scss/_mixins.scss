@@ -7,3 +7,38 @@
     height: 100%;
     width: 100%;
 }
+
+@mixin mask() {
+    .single-portfolio-item-mask {
+        background-color: rgba(42, 61, 79, 0.8);
+        @include dimensions();
+        opacity: 0;
+        font-size: initial;
+        padding: 10px;
+
+        .single-portfolio-item-mask-content {
+            border: 1px solid $white-color;
+            margin: 1px;
+            height: 100%;
+
+            .single-portfolio-item-mask-content-iner {
+                top: 50%;
+                left: 0;
+                right: 0;
+                color: $white-color;
+                text-align: center;
+
+                i.fa {
+                    font-size: 50px;
+               
+                }
+            }
+        }
+
+        &:hover {
+            opacity: 1; 
+            transition: all 0.3s ease-in-out;
+
+        }
+    }
+}
