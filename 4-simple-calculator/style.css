@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    
+    display: block;
+    width: 220px;
+    height: 310px;    
+    border: 12px outset grey;
+    text-align: center;
+    margin: 5% 0% 0% 42%;
+    background-color:darkslategrey;
+}
+
+input.operator, .guzik {
+    font-size: 30px;
+    margin: 3px;
+    width: 40px;
+    border-radius: 49%;
+    background-color: white;
+}
+
+input#wyswietlacz {
+    height: 40px;
+    width: 92%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+input#wyczysc {
+    width: 94%;
+    margin-bottom: 10px;
+    border-radius: 0%;
+}

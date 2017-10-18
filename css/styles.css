@@ -482,9 +482,12 @@ a.clickableLink {
 figure.single-portfolio-menu {
   height: 20em;
   margin-bottom: 1%;
+  cursor: pointer;
   -webkit-transform: perspective(500);
   -webkit-transform-style: preserve-3d;
-  -webkit-transition: .5s; }
+  -webkit-transition: .7s; }
+  figure.single-portfolio-menu a:hover {
+    text-decoration: none; }
   figure.single-portfolio-menu div#portfolio-item-1 {
     background-image: url("../img/portfolio1.jpg");
     background-size: cover;
@@ -497,6 +500,22 @@ figure.single-portfolio-menu {
     background-image: url("../img/portfolio3.jpg");
     background-size: cover;
     background-position: center; }
+  figure.single-portfolio-menu div#portfolio-item-4 {
+    background-image: url("../img/calculator.jpg");
+    background-size: cover;
+    background-position: center; }
+  figure.single-portfolio-menu div#portfolio-item-5 {
+    background-image: url("../img/portfolio5.jpg");
+    background-size: cover;
+    background-position: center; }
+  figure.single-portfolio-menu div#portfolio-item-6 {
+    background-image: url("../img/portfolio3.jpg");
+    background-size: cover;
+    background-position: center; }
+  figure.single-portfolio-menu:nth-child(5):hover {
+    -webkit-transform: perspective(500) rotateX(90deg) translateY(-8em) translateZ(9em); }
+  figure.single-portfolio-menu:nth-child(2):hover {
+    -webkit-transform: perspective(500) rotateX(90deg) translateY(-8em) translateZ(8em); }
   figure.single-portfolio-menu:hover {
     -webkit-transform: perspective(500) rotateX(90deg) translateY(-8em) translateZ(6em); }
     figure.single-portfolio-menu:hover div.portfolio-items {
@@ -509,7 +528,7 @@ figure.single-portfolio-menu {
     background-color: #222;
     box-shadow: 0 20px 15px -10px rgba(0, 0, 0, 0.25);
     height: 100%;
-    -webkit-transition: .5s;
+    -webkit-transition: .7s;
     border: 10px ridge #426684; }
   figure.single-portfolio-menu figcaption {
     background-color: #426684;
@@ -517,20 +536,22 @@ figure.single-portfolio-menu {
     padding: 1.5em;
     -webkit-transform: rotateX(-90deg);
     -webkit-transform-origin: 50% 0;
-    -webkit-transition: .5s;
+    -webkit-transition: .7s;
     border: 10px solid white; }
     figure.single-portfolio-menu figcaption h3 {
       font-weight: bold;
       font-size: 30px; }
-    figure.single-portfolio-menu figcaption p.portfolio-description {
-      font-size: 10px; }
+    figure.single-portfolio-menu figcaption h4.portfolio-description {
+      font-size: 20px;
+      text-align: center; }
 
 /* Contact section styling start */
 section#contact {
   background-color: #213b50;
   color: white;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  margin-top: 5%; }
 
 div.contact_data {
   float: left;
@@ -538,14 +559,18 @@ div.contact_data {
   line-height: 25px; }
   div.contact_data h2 {
     text-align: left;
-    font-size: 38px; }
+    font-size: 50px; }
+  div.contact_data address {
+    font-size: 20px; }
+  div.contact_data div.contact-social-icons a i.fa {
+    font-size: 80px; }
 
 div.contact-social-icons a {
   height: 50px;
   width: 50px;
   text-align: center;
   font-size: 40px;
-  margin: 50px 5px;
+  margin: 60px 20px;
   color: white;
   vertical-align: middle;
   line-height: 45px; }
@@ -566,25 +591,38 @@ form input,
 textarea {
   width: 80%;
   margin: 2%;
-  background-color: #426684; }
+  background-color: #426684;
+  padding-left: 2%;
+  border-radius: 10px;
+  border: 5px solid white; }
+  form input:focus,
+  textarea:focus {
+    border-radius: 10px;
+    border: 5px solid #228B22; }
 
 form input {
   height: 50px; }
 
 ::-webkit-input-placeholder {
   color: white;
-  padding-left: 10px;
   padding-top: 5px;
   font-size: 15px;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  border-radius: 10px; }
 
-input[type="submit"] {
+button[type="submit"] {
   color: white;
   font-weight: 600;
   width: auto;
-  padding: 15px 30px;
-  margin: 0% 18% 20% 0%;
-  float: right;
+  padding: 12px 20px;
+  margin: 0% 18% 20% 2%;
+  float: left;
   text-transform: uppercase;
   border: 1pz solid #228B22;
-  background-color: #228B22; }
+  background-color: #228B22;
+  border-radius: 10px; }
+  button[type="submit"] i.fa {
+    margin-left: 4px; }
+  button[type="submit"]:hover {
+    color: #228B22;
+    background-color: white; }

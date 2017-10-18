@@ -4,10 +4,19 @@
 figure.single-portfolio-menu {
     height: 20em;
     margin-bottom: 1%;
+    cursor:pointer;
+    
+    a {
+        
+        &:hover {
+            text-decoration: none;
+        }
+    
+    }
     
     -webkit-transform: perspective(500);
     -webkit-transform-style: preserve-3d;
-    -webkit-transition: .5s;
+    -webkit-transition: .7s;
     
     div#portfolio-item-1 {
         background-image:  url('../img/portfolio1.jpg');
@@ -24,7 +33,39 @@ figure.single-portfolio-menu {
     div#portfolio-item-3 {
         background-image:  url('../img/portfolio3.jpg');
         background-size: cover;
+        background-position:center;
+    }
+    
+    div#portfolio-item-4 {
+        background-image:  url('../img/calculator.jpg');
+        background-size: cover;
         background-position: center;
+    }
+    
+    div#portfolio-item-5 {
+        background-image:  url('../img/portfolio5.jpg');
+        background-size: cover;
+        background-position:center;
+    }
+    
+    div#portfolio-item-6 {
+        background-image:  url('../img/portfolio3.jpg');
+        background-size: cover;
+        background-position:center;
+    }
+    
+    &:nth-child(5) {
+        
+        &:hover {
+            -webkit-transform: perspective(500) rotateX(90deg) translateY(-8em) translateZ(9em);
+        }
+    }
+    
+    &:nth-child(2) {
+
+        &:hover {
+            -webkit-transform: perspective(500) rotateX(90deg) translateY(-8em) translateZ(8em);
+        }
     }
     
     &:hover {
@@ -34,6 +75,7 @@ figure.single-portfolio-menu {
            height: 100%;
            width: 100%;
            border: 5px solid #426684;
+           
         }
         
         figcaption {
@@ -46,7 +88,7 @@ figure.single-portfolio-menu {
         background-color: #222;
         box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
         height: 100%;
-        -webkit-transition: .5s;
+        -webkit-transition: .7s;
         border: 10px ridge #426684;
     }
     
@@ -56,7 +98,7 @@ figure.single-portfolio-menu {
         padding: 1.5em;
         -webkit-transform: rotateX(-90deg);
         -webkit-transform-origin: 50% 0;
-        -webkit-transition: .5s;
+        -webkit-transition: .7s;
         border: 10px solid white;
         
         h3 {
@@ -64,8 +106,9 @@ figure.single-portfolio-menu {
             font-size: 30px;
         }
         
-        p.portfolio-description {
-            font-size: 10px;
+        h4.portfolio-description {
+            font-size: 20px;
+            text-align: center;
         }
     }
     
