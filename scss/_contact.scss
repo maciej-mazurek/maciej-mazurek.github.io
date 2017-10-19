@@ -14,43 +14,36 @@ div.contact_data {
     float: left;
     text-align: left;
     line-height: 25px;
-    
     h2 {
-    text-align: left;
-    font-size: 50px;
-}
-    
+        text-align: left;
+        font-size: 50px;
+    }
     address {
         font-size: 20px;
     }
     
     div.contact-social-icons {
-        
+        margin-top: 5%;
         a {
-            
             i.fa {
                 font-size: 80px;
             }
-            
         }
-        
     }
 }
 
-
 div.contact-social-icons a {
     height: 50px;
-   width: 50px;
+    width: 50px;
     text-align: center;
     font-size: 40px;
     margin: 60px 20px;
     color: $white-color;
     vertical-align: middle;
     line-height: 45px;
-    
     &:hover {
-    color: $green-color;
-}
+        color: $green-color;
+    }
 }
 
 div.contact-form {
@@ -61,12 +54,10 @@ div.contact-form {
 
 address a {
     text-decoration: none;
-    
     &:link {
-    color: $green-color;
+        color: $green-color;
+    }
 }
-}
-
 
 form input,
 textarea {
@@ -76,13 +67,12 @@ textarea {
     padding-left: 2%;
     border-radius: 10px;
     border: 5px solid white;
-    
     &:focus {
         border-radius: 10px;
         border: 5px solid $green-color;
+        outline: none;
     }
 }
-
 
 form input {
     height: 50px;
@@ -102,18 +92,16 @@ button[type="submit"] {
     width: auto;
     padding: 12px 20px;
     margin: 0% 18% 20% 2%;
-    float:left;
+    float: left;
     text-transform: uppercase;
     border: 1pz solid $green-color;
     background-color: $green-color;
     border-radius: 10px;
-    
     i.fa {
         margin-left: 4px;
     }
-    
     &:hover {
-        color:$green-color;
+        color: $green-color;
         background-color: $white-color;
     }
 }
