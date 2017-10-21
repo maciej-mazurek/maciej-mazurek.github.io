@@ -91,10 +91,10 @@ div.navbar-collapse ul.navbar-nav li a {
 .untitled__shutters {
   overflow: hidden;
   position: absolute;
-  height: 120vmax;
-  width: 120vmax;
-  left: calc(50% - 60vmax);
-  top: calc(50% - 60vmax);
+  height: 130vmax;
+  width: 130vmax;
+  left: calc(50% - 65vmax);
+  top: calc(50% - 65vmax);
   pointer-events: none;
   z-index: 2;
   -webkit-animation: rotateFrame 10s linear infinite;
