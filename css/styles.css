@@ -91,10 +91,10 @@ div.navbar-collapse ul.navbar-nav li a {
 .untitled__shutters {
   overflow: hidden;
   position: absolute;
-  height: 130vmax;
-  width: 130vmax;
-  left: calc(50% - 65vmax);
-  top: calc(50% - 65vmax);
+  height: 110vmax;
+  width: 110vmax;
+  left: calc(50% - 55vmax);
+  top: calc(50% - 55vmax);
   pointer-events: none;
   z-index: 2;
   -webkit-animation: rotateFrame 10s linear infinite;
@@ -433,7 +433,7 @@ a.clickableLink {
 /* Header Styles Stop */
 /* Section About Styles Start */
 #about {
-  position: absolute;
+  position: relative;
   background-color: #f9fcfe;
   padding: 0% 10% 8%;
   max-width: 100%;
@@ -462,9 +462,8 @@ a.clickableLink {
 /* Section About Styles Stop */
 /* Section Skills Styles start */
 #skills {
-  margin-top: 750px;
   background-color: white;
-  position: absolute;
+  position: relative;
   text-align: center; }
   #skills p {
     font-size: 20px;
