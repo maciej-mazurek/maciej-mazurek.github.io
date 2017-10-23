@@ -20,10 +20,10 @@
 .untitled__shutters {
     overflow: hidden;
     position: absolute;
-    height: 110vmax;
-    width: 110vmax;
-    left: calc(50% - 55vmax);
-    top: calc(50% - 55vmax);
+    height: 115vmax;
+    width: 115vmax;
+    left: calc(50% - 57vmax);
+    top: calc(50% - 57vmax);
     pointer-events: none;
     z-index: 2;
     -webkit-animation: rotateFrame 10s linear infinite;
