@@ -478,7 +478,7 @@ a.clickableLink {
       width: 85%;
       height: 85%; }
       #skills div#skills-icons figure img:hover {
-        animation: left-right 2s infinite; }
+        animation: left-right 3s infinite; }
 
 @keyframes left-right {
   0% {

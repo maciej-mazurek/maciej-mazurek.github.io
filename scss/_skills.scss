@@ -24,7 +24,7 @@
             height: 85%;
             
             &:hover {
-               animation: left-right 2s infinite;
+               animation: left-right 3s infinite;
                 
                 @keyframes left-right {
                     0%{transform: rotate(0deg);}
