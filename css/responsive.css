@@ -1,7 +1,3 @@
-@media all and (max-width: 1250px) {
-  #skills {
-    margin-top: 1150px; } }
-
 @media all and (max-width: 768px) {
   .untitled__slideContent h1 {
     font-size: 4em; }
@@ -22,8 +18,6 @@
     padding: 0; }
   #myPicture {
     margin: 0 auto; }
-  #skills {
-    margin-top: 10800px; }
   .about-content {
     text-align: center;
     font-size: 15px;
@@ -44,9 +38,7 @@
   #myPicture {
     width: 300px;
     height: 300px;
-    margin: 0 auto; }
-  #skills {
-    margin-top: 1150px; } }
+    margin: 0 auto; } }
 
 .about-content {
   text-align: center;
