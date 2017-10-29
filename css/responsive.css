@@ -21,9 +21,13 @@
   .about-content {
     text-align: center;
     font-size: 15px;
-    padding: 0; } }
+    padding: 0; }
+  .single-portfolio-menu {
+    margin-top: 3%; } }
 
 @media all and (max-width: 480px) {
+  .single-portfolio-menu {
+    margin-top: 2px; }
   .untitled__slideContent h1 {
     font-size: 4em; }
   .untitled__slideContent h2 {
@@ -44,3 +48,6 @@
   text-align: center;
   font-size: 15px;
   padding: 0; }
+
+.single-portfolio-menu {
+  margin-top: 3%; }

@@ -39,9 +39,18 @@
         font-size: 15px;
         padding: 0;
     }
+    
+    .single-portfolio-menu {
+        margin-top: 3%;
+    }
+    
 }
 
 @media all and (max-width: 480px) {
+    
+    .single-portfolio-menu {
+        margin-top: 2px;
+    }
     
     .untitled__slideContent {
         h1 {
@@ -78,4 +87,8 @@
     text-align: center;
     font-size: 15px;
     padding: 0;
+}
+
+.single-portfolio-menu {
+    margin-top: 3%;
 }
