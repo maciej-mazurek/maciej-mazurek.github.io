@@ -1,17 +1,15 @@
 $(document).ready(function(){
     
     navNewClass();
-    showContent();
-    
+
 });
 
 $(window).scroll(function(){
-    
-    navNewClass();
-    showContent();
-    
-});
 
+    navNewClass();
+
+});
+    
 function navNewClass() {
     var heightValue = 100;
     
@@ -35,4 +33,29 @@ $('.links').click(function () {
     }, 1000);
     return false;
 });
+    
+
+$('#slideThree').click(function() {
+    if($(this).prop("checked")) {
+        
+        $('.english').hide();
+        $('.polish').show();
+        $('input[placeholder="Name"]').attr('placeholder', 'Imię i Nazwisko');
+        $('textarea[placeholder="Your message"]').attr('placeholder', 'Treść wiadomości');
+        
+        
+        
+    } else {
+
+        $('.english').show();
+        $('.polish').hide();
+        $('input[placeholder="Imię i Nazwisko"]').attr('placeholder', 'Name');
+        $('textarea[placeholder="Treść wiadomości"]').attr('placeholder', 'Your message');
+    }
+    
+});
+    
+                      
+                      
+            
 

@@ -34,7 +34,7 @@ section h2 {
     @include resets();
 }
 
-span {
+.green {
     color: $green-color;
     font-weight: 600;
 }
