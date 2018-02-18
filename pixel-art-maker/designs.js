@@ -5,15 +5,15 @@ var size = $('#sizePicker');
 
 // When size is submitted by the user, call makeGrid()
 
-function makeGrid(x, y, n=10000, nsig=2, margin=1.05, cell.size) {
+function makeGrid(x, y) {
     var table = $("#pixel_canvas");
     var grid = '';
 // Your code goes here!
     // row loop
-    for (var i = 0; i < height; i++){
+    for (var i = 0; i < x; i++){
         grid += '<tr class="row">';
      //cell loop
-        for (var j = 0; j < width; j++){
+        for (var j = 0; j < y; j++){
             grid += '<td class="cell"></td>';
         }
         grid += '</tr>';
@@ -22,16 +22,14 @@ function makeGrid(x, y, n=10000, nsig=2, margin=1.05, cell.size) {
     table.innerHTML = grid;
 }
 
-function createTable() {
+function createTable(event) {
     
     event.preventDefault();
     var x = $('#input_height').value;
     var y = $('#input_width').value;
     makeGrid(x, y);
     
-}
-    
-    
-    
+};
 
-}
+$("input[type=submit]").onclick(createTable());
+    
