@@ -1,35 +1,46 @@
-// Select color input
-var color = $("#colorPicker");
-// Select size input
-var size = $('#sizePicker');
+$(function () {
 
-// When size is submitted by the user, call makeGrid()
+    // Select color input
+    let color = $('#colorPicker');
 
-function makeGrid(x, y) {
-    var table = $("#pixel_canvas");
-    var grid = '';
-// Your code goes here!
-    // row loop
-    for (var i = 0; i < x; i++){
-        grid += '<tr class="row">';
-     //cell loop
-        for (var j = 0; j < y; j++){
-            grid += '<td class="cell"></td>';
+    // Select size input
+    let h = $('#input_height');
+    let w = $('#input_width');
+
+    // select canvas
+    const table = $('#pixel_canvas');
+
+    // When size is submitted by the user, call makeGrid()
+    function makeGrid() {
+        table.find('tbody').remove();
+
+        // "submit" the size form to update the grid size
+        let row = h.val();
+        let cells = w.val();
+
+        // set tbody to the table
+        table.append('<tbody></tbody>');
+
+        let canvas = table.find('tbody');
+
+        // draw grid row
+        for (let i = 0; i < row; i++) {
+            canvas.append('<tr></tr>');
         }
-        grid += '</tr>';
+
+        // draw grid col
+        for (let i = 0; i < cells; i++) {
+           table.find('tr').append('<td class="transparent"></td>');
+        }
+
     }
-    // add grid into table
-    table.innerHTML = grid;
-}
 
-function createTable(event) {
-    
-    event.preventDefault();
-    var x = $('#input_height').value;
-    var y = $('#input_width').value;
-    makeGrid(x, y);
-    
-};
 
-$("input[type=submit]").onclick(createTable());
-    
+    $(document).ready(function () {
+        // click the submit button to update the grid
+        $('input[type="submit"]').on('click', function (e) {
+            e.preventDefault();
+            makeGrid();
+        });
+    });
+});
